@@ -1,0 +1,397 @@
+* {margin:0; padding:0;}
+
+body {	
+	background:#dedede;
+	font-family: helvetica;
+}
+
+#main-container {
+	margin-top: 25px;
+	width: 320px;
+	height: inherit;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#start-container {
+	background: #999;
+	margin-top: 25px;
+	width: 320px;
+	height: 480px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+form#theForm {
+	background:#999;
+	padding:15px;
+	border-radius: 5px;
+	width: 290px;
+	height: 450px;
+	font-size:12px;	
+}
+form#opteller {
+	background:#999;
+	padding:15px;
+	border-radius: 5px;
+	width: 290px;
+	height: 450px;
+	font-size:12px;
+}
+
+#theForm fieldset {
+	border: 2px solid #ff0000;
+	padding: 0 15px 15px;
+	border-radius: 5px;
+}
+
+#theForm fieldset div {
+	margin: 5px 0;
+	clear:both;
+}
+
+/*-----------------------------------------*/
+/*Aantekeningen formulier*/
+form#noteForm {
+	background:#999;
+	padding:15px;
+	border-radius: 5px;
+	width: 290px;
+	height: 450px;
+	font-size:12px;	
+}
+form#noteForm {
+	background:#999;
+	padding:15px;
+	border-radius: 5px;
+	width: 290px;
+	height: 450px;
+	font-size:12px;
+}
+
+#noteForm label {
+	font-size: 12px;
+	color: #fff;
+	padding-left: 10px;
+	float:none;
+	width:180px;
+	display:block;
+	clear:both;
+}
+
+#noteForm input{
+	color: #999;
+	font-size: 12px;
+	padding: 3px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	border:1px solid #03c;
+	background-color:#fff;
+	border-radius: 5px;
+	display:block;
+	float:left;
+}
+
+#noteForm submit{
+	background-color:#000;
+	color:#ff0000;
+	}
+
+#noteForm fieldset {
+	border: 2px solid #ff0000;
+	padding: 0 15px 15px;
+	border-radius: 5px;
+}
+
+#noteForm fieldset div {
+	margin: 5px 0;
+	clear:both;
+}
+
+#noteForm div.ui-input-text {
+	float: left;
+	clear: none;
+}
+
+#noteForm legend {
+	color:#fff;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#noteForm legend span {
+	width:100px;
+	text-align: right;
+}
+
+
+/*-----------------------------------------*/
+
+#opteller fieldset {
+	border: 2px solid #ff0000;
+	padding: 0 15px 15px;
+	border-radius: 5px;
+}
+
+#opteller fieldset div {
+	margin: 5px 0;
+	clear:both;
+}
+
+#opteller div.ui-input-text {
+	float: left;
+	clear: none;
+}
+
+#theForm label {
+	font-size: 12px;
+	color: #fff;
+	padding-left: 10px;
+	float:none;
+	width:180px;
+	display:block;
+	clear:both;
+}
+
+#opteller label {
+	font-size: 12px;
+	color: #fff;
+	padding-left: 10px;
+	float:none;
+	width:180px;
+	display:block;
+	clear:both;
+}
+
+#theForm legend {
+	color:#fff;
+	font-size:15px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#theForm legend span {
+	width:100px;
+	text-align: right;
+}
+
+
+#opteller legend {
+	color:#fff;
+	font-size:15px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#opteller legend span {
+	width:100px;
+	text-align: right;
+}
+
+#theForm input{
+	color: #999;
+	font-size: 12px;
+	padding: 3px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 150px;
+	border:1px solid #03c;
+	background-color:#fff;
+	border-radius: 5px;
+	display:block;
+	float:left;
+}
+
+#opteller input{
+	color: #999;
+	font-size: 12px;
+	padding: 3px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	width: 150px;
+	border:1px solid #03c;
+	background-color:#fff;
+	border-radius: 5px;
+	display:block;
+	float:left;
+} 
+
+a:link, a:visited {
+	margin-top: 5px;
+	padding: 3px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	/*
+	background-color: #000099;
+	border-radius: 5px;
+	*/
+}
+a:hover, a:active {
+	margin-top: 5px;
+	padding: 3px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	/*
+	background-color: #000099;
+	border-radius: 5px;
+	*/
+}
+a.knop:link, a.knop:visited {
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+}
+
+a.knop:hover, a.knop:active {
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px;
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+}
+
+.tekst {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	float: left;
+	color: #fff;
+	text-align: left;
+}
+.blauw {
+	font-size: 12px;
+	color: #03c;
+}
+
+.rood {
+	font-size: 12px;
+	color: #cc0000;
+}
+
+.wit {
+	font-size: 12px;
+	color: #ffffff;
+	}
+
+.breek {
+	clear: both;
+	}
+
+.uitlijn{
+	margin: 15px;
+	float: left;
+	text-align: justify;
+}
+
+.midden {
+	text-align:center;
+}
+
+.vlaggen {
+	clear:both;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:15px;
+}
+
+.cart {
+	float:left;
+	margin: 15px;
+	}
+
+.foto-frame {
+	border: 5px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#nog-geen-foto {
+	margin-top: 15px;
+	color: #fff;
+}
+
+.foto-frame img {
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+}
+
+#noteForm input[type=submit], #noteForm button
+{
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#opteller input[type=submit], #opteller button
+{
+	clear: both;
+	background: #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 5px #555;
+	width: 240px; 
+	display: block;
+	padding: 5px;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "<!-- id van de App (com.fonsvitae.vwo) -->"
+        version   = "1.0.0">
+    <preference name="phonegap-version" value="2.5.0" />
+
+    <name>testApp</name>
+
+    <description>
+        <!-- Omschrijving van de App -->
+    </description>
+
+    <author href="http://" email="">
+        <!-- Naam van de ontwikkelaar. -->
+    </author>
+
+	<!-- De bounce uitschakelen. -->
+    <preference name="webviewbounce" value="false" />
+    
+	<!-- De app fullscreen maken. -->
+    <preference name="fullscreen" value="true" />
+	
+	<preference name="prerendered-icon" value="true" />
+	
+	<icon src="icon.png" gap:platform="ios" width="72" height="72" />
+
+</widget>

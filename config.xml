@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "<!-- id van de App (com.fonsvitae.vwo) -->"
         version   = "1.0.0">
-    <preference name="phonegap-version" value="2.5.0" />
+    <preference name="phonegap-version" value="2.9.0" />
 
     <name>testApp</name>
 

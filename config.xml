@@ -11,9 +11,10 @@
         uitvogelen hoe dit allemaal werkt
     </description>
 	
-	<author href="http://" email="ilundahl@upcmail.nl">
+	<author href="http://" email="">
       Ingrid Lundahl
     </author>
+	
 	
 	<gap:platform name="ios" />
 		

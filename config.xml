@@ -31,7 +31,7 @@
 			permission on your app, which PhoneGap requires.
 		-->
     
-	<preference name="permissions" value="none"/
+	<preference name="permissions" value="none"/>
 	
 	
 		

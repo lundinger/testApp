@@ -5,7 +5,7 @@
         id        = "<!-- id van de App (com.naamontwikkelaar.naamapp)-->"
         version   = "1.0.0" >
 		
-	<name>testApp</name>
+	<name>testApp 2</name>
 		
 	<description>
         uitvogelen hoe dit allemaal werkt

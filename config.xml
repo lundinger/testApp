@@ -35,7 +35,7 @@
 -->	
 	
 		
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="2.9.0" />
 
 	<!-- De bounce uitschakelen. -->
     <preference name="webviewbounce" value="false" />

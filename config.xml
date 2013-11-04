@@ -5,7 +5,7 @@
         id        = "com.fonsvitae.vwo"
         version   = "1.0.0" >
 		
-	<name>testApp 2</name>
+	<name>testApp</name>
 		
 	<description>
         uitvogelen hoe dit allemaal werkt
